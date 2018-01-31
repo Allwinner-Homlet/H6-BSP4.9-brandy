@@ -1,0 +1,224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CRC	crc.h	/^	unsigned CRC;				\/\/在Windows下编程，int的大小是32位$/;"	m	struct:tag_CRC32_DATA
+CRC32_DATA_t	crc.h	/^}CRC32_DATA_t;$/;"	t	typeref:struct:tag_CRC32_DATA
+CRC_32_Tbl	crc.h	/^	unsigned CRC_32_Tbl[256];	\/\/用来保存码表$/;"	m	struct:tag_CRC32_DATA
+DATA_TYPE_GPIO_WORD	script.h	27;"	d
+DATA_TYPE_MULTI_WORD	script.h	26;"	d
+DATA_TYPE_SINGLE_WORD	script.h	24;"	d
+DATA_TYPE_STRING	script.h	25;"	d
+DOWNLOAD_MAP_NAME	sunxi_mbr.h	23;"	d
+GetFullPath	update_mbr.c	/^void GetFullPath(char *dName, const char *sName)$/;"	f
+IsFullName	update_mbr.c	/^int IsFullName(const char *FilePath)$/;"	f
+MAX_PATH	update_mbr.c	13;"	d	file:
+PartCount	sunxi_mbr.h	/^	unsigned  int       PartCount;			        \/\/分区个数$/;"	m	struct:sunxi_mbr
+SCRIPT_PARSER_DATA_VALUE_NULL	script.h	32;"	d
+SCRIPT_PARSER_EMPTY_BUFFER	script.h	30;"	d
+SCRIPT_PARSER_KEYNAME_NULL	script.h	31;"	d
+SCRIPT_PARSER_KEY_NOT_FIND	script.h	33;"	d
+SCRIPT_PARSER_OK	script.h	29;"	d
+SUNXI_DL_RESERVED	sunxi_mbr.h	32;"	d
+SUNXI_DL_SIZE	sunxi_mbr.h	27;"	d
+SUNXI_MBR_COPY_NUM	sunxi_mbr.h	30;"	d
+SUNXI_MBR_MAGIC	sunxi_mbr.h	28;"	d
+SUNXI_MBR_MAX_PART_COUNT	sunxi_mbr.h	29;"	d
+SUNXI_MBR_NAME	sunxi_mbr.h	24;"	d
+SUNXI_MBR_RESERVED	sunxi_mbr.h	31;"	d
+SUNXI_MBR_SIZE	sunxi_mbr.h	26;"	d
+SZ_128K	types.h	162;"	d
+SZ_128M	types.h	172;"	d
+SZ_16G	types.h	179;"	d
+SZ_16K	types.h	159;"	d
+SZ_16M	types.h	169;"	d
+SZ_1G	types.h	175;"	d
+SZ_1K	types.h	155;"	d
+SZ_1M	types.h	165;"	d
+SZ_256K	types.h	163;"	d
+SZ_256M	types.h	173;"	d
+SZ_2G	types.h	176;"	d
+SZ_2K	types.h	156;"	d
+SZ_2M	types.h	166;"	d
+SZ_32G	types.h	180;"	d
+SZ_32K	types.h	160;"	d
+SZ_32M	types.h	170;"	d
+SZ_4G	types.h	177;"	d
+SZ_4K	types.h	157;"	d
+SZ_4M	types.h	167;"	d
+SZ_512	types.h	154;"	d
+SZ_512K	types.h	164;"	d
+SZ_512M	types.h	174;"	d
+SZ_64G	types.h	181;"	d
+SZ_64K	types.h	161;"	d
+SZ_64M	types.h	171;"	d
+SZ_8G	types.h	178;"	d
+SZ_8K	types.h	158;"	d
+SZ_8M	types.h	168;"	d
+Usage	update_mbr.c	/^void Usage(void)$/;"	f
+_SCRIPT_H_	script.h	22;"	d
+__Bool	types.h	/^typedef signed char         __Bool;$/;"	t
+__CAL_CRC_H__	crc.h	17;"	d
+__SUNXI_MBR_H__	sunxi_mbr.h	21;"	d
+__TYPES_H_	types.h	22;"	d
+__bool	types.h	/^typedef signed char         __bool;$/;"	t
+__cpu_sr	types.h	/^typedef unsigned int        __cpu_sr;               \/* Define size of CPU status register (PSR = 32 bits)           *\/$/;"	t
+__fp32	types.h	/^typedef float               __fp32;                 \/* Single precision floating point                              *\/$/;"	t
+__fp64	types.h	/^typedef double              __fp64;                 \/* Double precision floating point                              *\/$/;"	t
+__hdle	types.h	/^typedef unsigned int        __hdle;$/;"	t
+__int64	types.h	/^typedef long long __int64;$/;"	t
+__s16	types.h	/^typedef   signed short      __s16;$/;"	t
+__s32	types.h	/^typedef   signed int        __s32;$/;"	t
+__s64	types.h	/^typedef   signed long long    __s64;$/;"	t
+__s8	types.h	/^typedef   signed char       __s8;$/;"	t
+__sector_t	types.h	/^typedef unsigned int        __sector_t;$/;"	t
+__size	types.h	/^typedef unsigned int        __size;$/;"	t
+__stk	types.h	/^typedef unsigned int        __stk;                  \/* Each stack entry is 32-bit wide                              *\/$/;"	t
+__u16	types.h	/^typedef unsigned short      __u16;$/;"	t
+__u32	types.h	/^typedef unsigned int        __u32;$/;"	t
+__u64	types.h	/^typedef unsigned long long    __u64;$/;"	t
+__u8	types.h	/^typedef unsigned char       __u8;$/;"	t
+_absolute	types.h	146;"	d
+_absolute	types.h	147;"	d
+_clear_bit	types.h	102;"	d
+_clear_bit	types.h	103;"	d
+_clear_bit	types.h	114;"	d
+_clear_bit	types.h	115;"	d
+_max	types.h	139;"	d
+_max	types.h	140;"	d
+_min	types.h	133;"	d
+_min	types.h	134;"	d
+_reverse_bit	types.h	120;"	d
+_reverse_bit	types.h	121;"	d
+_set_bit	types.h	108;"	d
+_set_bit	types.h	109;"	d
+_set_bit	types.h	96;"	d
+_set_bit	types.h	97;"	d
+_test_bit	types.h	126;"	d
+_test_bit	types.h	127;"	d
+_test_str_length	script.c	/^static  int   _test_str_length(char *str)$/;"	f	file:
+absolute	types.h	149;"	d
+absolute	types.h	150;"	d
+addrhi	sunxi_mbr.h	/^	unsigned  int       addrhi;				\/\/起始地址, 以扇区为单位$/;"	m	struct:sunxi_partition_t
+addrhi	sunxi_mbr.h	/^	unsigned  int       addrhi;             \/\/所烧写分区的高地址，扇区单位$/;"	m	struct:tag_one_part_info
+addrlo	sunxi_mbr.h	/^	unsigned  int       addrlo;				\/\/$/;"	m	struct:sunxi_partition_t
+addrlo	sunxi_mbr.h	/^	unsigned  int       addrlo;             \/\/所烧写分区的低地址，扇区单位$/;"	m	struct:tag_one_part_info
+array	sunxi_mbr.h	/^	sunxi_partition     array[SUNXI_MBR_MAX_PART_COUNT];	\/\/$/;"	m	struct:sunxi_mbr
+backup_flag	sunxi_mbr.h	/^	unsigned  int       backup_flag;$/;"	m	struct:sunxi_partition_t
+calc_crc32	crc.c	/^__u32 calc_crc32(void * buffer, u32 length)$/;"	f
+check_dl_size	update_mbr.c	/^__s32 check_dl_size(char *filename,int part_size)$/;"	f
+classname	sunxi_mbr.h	/^	unsigned  char      classname[16];		\/\/次设备名$/;"	m	struct:sunxi_partition_t
+clear_bit	types.h	105;"	d
+clear_bit	types.h	106;"	d
+clear_bit	types.h	117;"	d
+clear_bit	types.h	118;"	d
+copy	sunxi_mbr.h	/^	unsigned  int 	    copy;				        \/\/分数$/;"	m	struct:sunxi_mbr
+crc32	sunxi_mbr.h	/^	unsigned  int       crc32;				        		        \/\/crc$/;"	m	struct:tag_download_info
+crc32	sunxi_mbr.h	/^	unsigned  int       crc32;				        \/\/ crc 1k - 4$/;"	m	struct:sunxi_mbr
+data	script.h	/^	int data;$/;"	m	struct:__anon4
+dl_filename	sunxi_mbr.h	/^	unsigned  char      dl_filename[16];    \/\/所烧写分区的文件名称，长度固定16字节$/;"	m	struct:tag_one_part_info
+dl_one_part_info	sunxi_mbr.h	/^dl_one_part_info;$/;"	t	typeref:struct:tag_one_part_info
+download_count	sunxi_mbr.h	/^	unsigned  int       download_count;             		        \/\/需要烧写的分区个数$/;"	m	struct:tag_download_info
+drv_level	script.h	/^	int drv_level;$/;"	m	struct:__anon4
+eGON2_FAIL	types.h	94;"	d
+eGON2_OK	types.h	93;"	d
+encrypt	sunxi_mbr.h	/^	unsigned  int       encrypt;            \/\/所烧写分区的数据是否进行加密 0:加密   1：不加密$/;"	m	struct:tag_one_part_info
+get_file_name	update_mbr.c	/^int get_file_name(char *path, char *name)$/;"	f
+index	sunxi_mbr.h	/^	unsigned  int 	    index;				        \/\/第几个MBR备份$/;"	m	struct:sunxi_mbr
+keydata	sunxi_mbr.h	/^	unsigned  int       keydata;            \/\/关键数据，要求量产不丢失$/;"	m	struct:sunxi_partition_t
+lenhi	sunxi_mbr.h	/^	unsigned  int       lenhi;				\/\/长度$/;"	m	struct:sunxi_partition_t
+lenhi	sunxi_mbr.h	/^	unsigned  int       lenhi;				\/\/所烧写分区的长度，高32位，扇区单位$/;"	m	struct:tag_one_part_info
+lenlo	sunxi_mbr.h	/^	unsigned  int       lenlo;				\/\/$/;"	m	struct:sunxi_partition_t
+lenlo	sunxi_mbr.h	/^	unsigned  int       lenlo;				\/\/所烧写分区的长度，低32位，扇区单位$/;"	m	struct:tag_one_part_info
+lenth	script.h	/^	int  lenth;$/;"	m	struct:__anon2
+magic	sunxi_mbr.h	/^	unsigned  char 	    magic[8];			        		        \/\/"softw311"$/;"	m	struct:tag_download_info
+magic	sunxi_mbr.h	/^	unsigned  char 	    magic[8];			        \/\/"softw311"$/;"	m	struct:sunxi_mbr
+main	update_mbr.c	/^int main(int argc, char* argv[])$/;"	f
+main_key_count	script.h	/^	int  main_key_count;$/;"	m	struct:__anon1
+main_name	script.h	/^	char main_name[32];$/;"	m	struct:__anon2
+max	types.h	142;"	d
+max	types.h	143;"	d
+min	types.h	136;"	d
+min	types.h	137;"	d
+mul_sel	script.h	/^	int mul_sel;$/;"	m	struct:__anon4
+name	sunxi_mbr.h	/^	unsigned  char      name[16];			\/\/主设备名$/;"	m	struct:sunxi_partition_t
+name	sunxi_mbr.h	/^	unsigned  char      name[16];           \/\/所烧写分区的主设备名$/;"	m	struct:tag_one_part_info
+objects	makefile	/^objects = crc.o script.o update_mbr.o$/;"	m
+offset	script.h	/^	int  offset;$/;"	m	struct:__anon2
+offset	script.h	/^	int  offset;$/;"	m	struct:__anon3
+one_part_info	sunxi_mbr.h	/^	dl_one_part_info	one_part_info[SUNXI_MBR_MAX_PART_COUNT];	\/\/烧写分区的信息$/;"	m	struct:tag_download_info
+partition_next	script.c	/^static  int   partition_next;$/;"	v	file:
+partition_start	script.c	/^static  int   partition_start;$/;"	v	file:
+pattern	script.h	/^	int  pattern;$/;"	m	struct:__anon3
+port	script.h	/^	int port;$/;"	m	struct:__anon4
+port_num	script.h	/^	int port_num;$/;"	m	struct:__anon4
+pull	script.h	/^	int pull;$/;"	m	struct:__anon4
+res	sunxi_mbr.h	/^	unsigned  char      res[SUNXI_DL_RESERVED];$/;"	m	struct:tag_download_info
+res	sunxi_mbr.h	/^	unsigned  char      res[SUNXI_MBR_RESERVED];$/;"	m	struct:sunxi_mbr
+reserved2	sunxi_mbr.h	/^        unsigned  char      reserved2[32];		\/\/保留数据，匹配分区信息128字节$/;"	m	struct:sunxi_partition_t
+reverse_bit	types.h	123;"	d
+reverse_bit	types.h	124;"	d
+ro	sunxi_mbr.h	/^	unsigned  int       ro;                 \/\/读写属性$/;"	m	struct:sunxi_partition_t
+s16	types.h	/^typedef   signed short        s16;$/;"	t
+s32	types.h	/^typedef   signed int          s32;$/;"	t
+s64	types.h	/^typedef   signed long long      s64;$/;"	t
+s8	types.h	/^typedef   signed char         s8;$/;"	t
+script_gpio_set_t	script.h	/^script_gpio_set_t;$/;"	t	typeref:struct:__anon4
+script_head_t	script.h	/^script_head_t;$/;"	t	typeref:struct:__anon1
+script_main_key_count	script.c	/^static  int    script_main_key_count = 0;       \/\/保存主键的个数$/;"	v	file:
+script_main_key_t	script.h	/^script_main_key_t;$/;"	t	typeref:struct:__anon2
+script_mod_buf	script.c	/^static  char  *script_mod_buf = NULL;           \/\/指向第一个主键$/;"	v	file:
+script_parser_exit	script.c	/^int script_parser_exit(void)$/;"	f
+script_parser_fetch	script.c	/^int script_parser_fetch(char *main_name, char *sub_name, int value[])$/;"	f
+script_parser_fetch_mainkey_sub	script.c	/^int script_parser_fetch_mainkey_sub(char *sub_name, int index, int *value)$/;"	f
+script_parser_fetch_partition	script.c	/^int script_parser_fetch_partition(void)$/;"	f
+script_parser_init	script.c	/^int script_parser_init(char *script_buf)$/;"	f
+script_sub_key_t	script.h	/^script_sub_key_t;$/;"	t	typeref:struct:__anon3
+set_bit	types.h	100;"	d
+set_bit	types.h	111;"	d
+set_bit	types.h	112;"	d
+set_bit	types.h	99;"	d
+sig_erase	sunxi_mbr.h	/^	unsigned  int       sig_erase;          \/\/签名擦除属性$/;"	m	struct:sunxi_partition_t
+sig_pbumode	sunxi_mbr.h	/^	unsigned  int       sig_pbumode;$/;"	m	struct:sunxi_partition_t
+sig_pubkey	sunxi_mbr.h	/^	unsigned  int       sig_pubkey;$/;"	m	struct:sunxi_partition_t
+sig_value	sunxi_mbr.h	/^	unsigned  int       sig_value[4];$/;"	m	struct:sunxi_partition_t
+sig_verify	sunxi_mbr.h	/^	unsigned  int       sig_verify;			\/\/签名验证属性$/;"	m	struct:sunxi_partition_t
+stamp	sunxi_mbr.h	/^	unsigned  int       stamp[1];					\/\/对齐$/;"	m	struct:sunxi_mbr
+stamp	sunxi_mbr.h	/^	unsigned  int       stamp[3];									\/\/对齐$/;"	m	struct:tag_download_info
+sub_name	script.h	/^	char sub_name[32];$/;"	m	struct:__anon3
+sunxi_download_info	sunxi_mbr.h	/^sunxi_download_info;$/;"	t	typeref:struct:tag_download_info
+sunxi_mbr	sunxi_mbr.h	/^typedef struct sunxi_mbr$/;"	s
+sunxi_mbr_t	sunxi_mbr.h	/^sunxi_mbr_t;$/;"	t	typeref:struct:sunxi_mbr
+sunxi_partition	sunxi_mbr.h	/^sunxi_partition;$/;"	t	typeref:struct:sunxi_partition_t
+sunxi_partition_t	sunxi_mbr.h	/^typedef struct sunxi_partition_t$/;"	s
+tag_CRC32_DATA	crc.h	/^typedef struct tag_CRC32_DATA$/;"	s
+tag_download_info	sunxi_mbr.h	/^typedef struct tag_download_info$/;"	s
+tag_one_part_info	sunxi_mbr.h	/^typedef struct tag_one_part_info$/;"	s
+test_bit	types.h	129;"	d
+test_bit	types.h	130;"	d
+u16	types.h	/^typedef unsigned short        u16;$/;"	t
+u32	types.h	/^typedef unsigned int          u32;$/;"	t
+u64	types.h	/^typedef unsigned long long      u64;$/;"	t
+u8	types.h	/^typedef unsigned char         u8;$/;"	t
+u_char	types.h	/^typedef unsigned char		u_char;$/;"	t
+u_int	types.h	/^typedef unsigned int		u_int;$/;"	t
+u_long	types.h	/^typedef unsigned long		u_long;$/;"	t
+u_short	types.h	/^typedef unsigned short		u_short;$/;"	t
+uint	types.h	/^typedef unsigned int		uint;$/;"	t
+uint16_t	types.h	/^typedef		__u16		uint16_t;$/;"	t
+uint32_t	types.h	/^typedef		__u32		uint32_t;$/;"	t
+uint8_t	types.h	/^typedef		__u8		uint8_t;$/;"	t
+ulong	types.h	/^typedef unsigned long		ulong;$/;"	t
+unchar	types.h	/^typedef unsigned char		unchar;$/;"	t
+update_dl_info_crc	update_mbr.c	/^__s32 update_dl_info_crc(sunxi_download_info *dl_map, FILE *dl_file)$/;"	f
+update_for_part_info	update_mbr.c	/^__s32 update_for_part_info(sunxi_mbr_t *mbr_info, sunxi_download_info *dl_map, __s32 mbr_count, __s32 mbr_size)$/;"	f
+update_mbr_crc	update_mbr.c	/^__s32  update_mbr_crc(sunxi_mbr_t *mbr_info, __s32 mbr_count, FILE *mbr_file)$/;"	f
+user_type	sunxi_mbr.h	/^	unsigned  int       user_type;          \/\/用户类型$/;"	m	struct:sunxi_partition_t
+ushort	types.h	/^typedef unsigned short		ushort;$/;"	t
+verify	sunxi_mbr.h	/^	unsigned  int       verify;             \/\/所烧写分区的数据是否进行校验 0:不校验 1：校验$/;"	m	struct:tag_one_part_info
+version	script.h	/^	int  version[3];$/;"	m	struct:__anon1
+version	sunxi_mbr.h	/^	unsigned  int       version;			        \/\/ 版本信息， 0x00000100$/;"	m	struct:sunxi_mbr
+version	sunxi_mbr.h	/^	unsigned  int       version;                                    \/\/版本号  0x00000101$/;"	m	struct:tag_download_info
+vf_filename	sunxi_mbr.h	/^	unsigned  char      vf_filename[16];    \/\/所烧写分区的校验文件名称，长度固定16字节$/;"	m	struct:tag_one_part_info

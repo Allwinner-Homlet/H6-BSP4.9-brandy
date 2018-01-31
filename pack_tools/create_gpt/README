@@ -1,0 +1,8 @@
+1. How to usd create_gpt
+	1) create_gpt [sunxi_mbr_file] [gpt_file_name] [flash_sectors]
+
+notice:
+	i.   sunxi_mbr_file: input file, sunxi_mbr
+	ii.  gpt_file_name: output file, gpt file name you want
+	iii. flash_sectors: flash size, one secors is means 512 bytes
+
